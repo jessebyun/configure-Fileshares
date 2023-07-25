@@ -30,7 +30,7 @@ This tutorial we will be sharing out files and folders over the network and allo
 </p>
 
 <p>
- First we are going to connect to DC-1 from our last lab and login as John Doe (admin). From Active Directory Users and Computers, we are going to find a normal user (non-administrative) and connect to Client-1 with the login of the normal user. For this we will use: Cato Hux. 
+ First we are going to connect to DC-1 from our last lab and login as John Doe (admin). From Active Directory Users and Computers, we are going to find a normal user (non-administrative) and connect to Client-1 with the login of that normal user. For this we will use: Cato Hux. 
  <br/>
  <br/>
  Then in DC-1's C:\ drive, we will create folders and set the following permissions for the "Domain Users" group:
@@ -40,9 +40,11 @@ This tutorial we will be sharing out files and folders over the network and allo
  Folder: "write-access", Group: "Domain Users", Permission: "Read/Write"
  <br/>
  Folder: "no-access", Group: "Domain Admins", Permission: "Read/Write"
+ <br/>
+ Folder" "accounting", (Skip Group and Permission for now)
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="xxx"/>
+<img src="https://i.imgur.com/IZO0FY6.png" height="80%" width="80%" alt="xxx"/>
 </p>
 <br />
 <br />
