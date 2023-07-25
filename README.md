@@ -56,3 +56,38 @@ This tutorial we will be sharing out files and folders over the network and allo
 <br/>
 <br/>
  
+<p>
+ We go to Client-1 where we logged in as Cato Hux and navigate to the shared folder (start, run, \\dc-1). We see only 2 folders "read-access" and "write-access". We don't see "no-access" (only Domain Admins can see this), also we don't see "accounting" because it was not shared yet. When we open "read-access" folder and try to create a text file we get message saying access denied. Next we open "write-access" folder and we are able to create a new text file. 
+</p>
+<p>
+ <img src="https://i.imgur.com/qJe7A80.png" height="80%" width="80%" alt="xxx"/>
+  <br/>
+   <img src="https://i.imgur.com/JflLTyl.png" height="80%" width="80%" alt="xxx"/>
+  <br/>
+  <img src="https://i.imgur.com/fYuMEgh.png" height="80%" width="80%" alt="xxx"/>
+  <br/>
+</p>
+<br/>
+<br/>
+<br/>
+
+<p>
+ Now we need to create an "Accountants" Security Group. We go back to DC-1 and go to AD Users and Computers and create "Accountants" Security Group. Then we are going to share the "Accountants" folder with the Accountants Security Group. And we are going to add a user to the Accountant Group from our list of randomly generated users (Besu Luto). 
+</p>
+<p>
+ <img src="https://i.imgur.com/YXcayoQ.png" height="80%" width="80%" alt="xxx"/>
+  <br/>
+  <img src="https://i.imgur.com/mlVHpFS.png" height="80%" width="80%" alt="xxx"/>
+</p>
+<br/>
+<br/>
+<br/>
+
+<p>
+ When we go back to Client-1 where we are logged in as Cato Hux. When we try to access the Accountants folder, message pops up saying we do not have access. If we disconnect from Client-1 and reconnect using Besu Luto and try to access Accountants folder, we have both Read\Write access. 
+</p>
+<p>
+ <img src="https://i.imgur.com/iq5FaEx.png" height="80%" width="80%" alt="xxx"/>
+  <br/>
+  <img src="https://i.imgur.com/W8fDOGB.png" height="80%" width="80%" alt="xxx"/>
+</p>
