@@ -29,8 +29,6 @@ This tutorial we will be sharing out files and folders over the network and allo
  We use File Shares when we want to share out files/folders to a large group of people. Some people might have Read-only access, while some might have both Read/Write, and file where people have No-access except to only a few select people. 
 </p>
 <br/>
-<br/>
-<br/>
 
 <p>
  First we are going to connect to DC-1 from our last lab and login as John Doe (admin). From Active Directory Users and Computers, we are going to find a normal user (non-administrative) and connect to Client-1 with the login of the normal user. For this we will use: Cato Hux. 
