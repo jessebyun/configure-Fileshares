@@ -26,7 +26,7 @@ This tutorial we will be sharing out files and folders over the network and allo
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
- We use File Shares when we want to share out files/folders to a large group of people. Some people might have Read-only access, while some might have both Read/Write, and file where people have No-access except to only a few select people. 
+ We use File Shares when we want to share out files/folders to a large group of people. Some people might have Read-only access, while some might have both Read/Write, and we might have files where no people will have access to except only to a few select people. 
 </p>
 
 <p>
