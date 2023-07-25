@@ -45,7 +45,14 @@ This tutorial we will be sharing out files and folders over the network and allo
 </p>
 <p>
 <img src="https://i.imgur.com/IZO0FY6.png" height="80%" width="80%" alt="xxx"/>
-</p>
-<br />
-<br />
-<br />
+ <br/>
+ <img src="https://i.imgur.com/sbMt4uZ.png" height="80%" width="80%" alt="xxx"/>
+  <br/>
+ <img src="https://i.imgur.com/8z1UA1k.png" height="80%" width="80%" alt="xxx"/>
+  <br/>
+ <img src="https://i.imgur.com/5FjjtKx.png" height="80%" width="80%" alt="xxx"/>
+ <p/>
+<br/>
+<br/>
+<br/>
+ 
