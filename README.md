@@ -15,7 +15,9 @@ This tutorial we will be sharing out files and folders over the network and allo
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- fafdsa
+- Create file shares with variouis permissions
+- Attempt to access file shares as a normal user
+- Create an "ACCOUNTANTS" Security Group, assign permissions, and test access
 
 <h2>Deployment and Configuration Steps</h2>
 
